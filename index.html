@@ -37,7 +37,7 @@
                     <li ng-class="{active: activetab=='/addWorkout'}"><a href="#/addWorkout">Add workout</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Log out</a></li>
+                    <li><a href="#/login">Log out</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -48,10 +48,16 @@
 </div>
 <script src="/node_modules/angular/angular.min.js"></script>
 <script src="/node_modules/angular-route/angular-route.min.js"></script>
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"></script>
 <script src="/app/js/app.js"></script>
+<script src="/app/js/services/firebaseService.js"></script>
 <script src="/app/js/controllers/trainingController.js"></script>
 <script src="/app/js/controllers/createWorkoutController.js"></script>
 <script src="/app/js/controllers/loginController.js"></script>
+
 
 </body>
 </html>
